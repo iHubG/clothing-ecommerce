@@ -9,7 +9,7 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 
-const Navbar = () => {
+export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
@@ -30,7 +30,7 @@ const Navbar = () => {
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 w-4 h-4" />
           <Input
             placeholder="Search for products..."
-            className="pl-10 bg-[#F0F0F0] rounded-xl md:w-sm w-lg"
+            className="pl-10 bg-[#F0F0F0] rounded-xl md:w-sm w-lg lg:w-xl"
           />
         </div>
         <div className="flex gap-4">
@@ -84,4 +84,3 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
