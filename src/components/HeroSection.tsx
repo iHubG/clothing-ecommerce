@@ -11,13 +11,13 @@ const stats = [
 
 const HeroSection = () => {
   return (
-    <section className="bg-[#F0F0F0] lg:p-12 h-auto overflow-x-hidden">
+    <section className="bg-[#F0F0F0] lg:p-12 lg:pb-0 h-auto overflow-x-hidden">
       <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-8 max-w-[100vw]">
-        <div className="flex flex-col p-4 lg:p-0">
+        <div className="flex flex-col p-4 lg:p-0 lg:pt-10">
           <h2 className="text-5xl lg:text-6xl leading-[4rem] tracking-normal origin-left">
             FIND CLOTHES <br /> THAT MATCHES <br /> YOUR STYLE
           </h2>
-          <p className="opacity-60 mt-3">
+          <p className="opacity-60 mt-3 text-base">
             Browse through our diverse range of meticulously crafted garments,
             designed to bring out your individuality and cater to your sense of
             style.
@@ -49,7 +49,7 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <div className="flex justify-center items-center relative">
+        <div className="flex justify-center items-center relative mt-5 lg:mt-0">
           <SiGooglegemini className="absolute bottom-60 left-5 text-black w-12 h-12" />
 
           <img
