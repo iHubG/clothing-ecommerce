@@ -42,7 +42,7 @@ const newArrivalClothes = [
 const NewArrivals = () => {
   return (
     <>
-      <section className="pt-20 p-4 lg:p-10 lg:pt-25">
+      <section className="pt-20 p-4 lg:p-0 lg:px-10 lg:pt-25">
         <h2 className="text-4xl lg:text-5xl text-center tracking-normal">NEW ARRIVALS</h2>
         <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mt-10">
           {newArrivalClothes.map((item, index) => (
@@ -53,6 +53,8 @@ const NewArrivals = () => {
         <button className="py-2 px-20 border rounded-full mt-10 mx-auto cursor-pointer block hover:bg-black hover:text-white transition">
           View All
         </button>
+
+        <hr className="mt-15" />
       </section>
     </>
   );
