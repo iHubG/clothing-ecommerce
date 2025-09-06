@@ -15,7 +15,7 @@ export const Navbar = () => {
   return (
     <>
       {/* Desktop */}
-      <nav className="hidden lg:flex items-center justify-center p-5 gap-7">
+      <nav className="hidden xl:flex items-center justify-center p-5 gap-7">
         <h1 className="text-4xl font-semibold">SHOP.CO</h1>
         <div className="flex gap-7">
           <div className="relative mr-3">
@@ -40,7 +40,7 @@ export const Navbar = () => {
       </nav>
 
       {/* Mobile */}
-      <nav className="flex lg:hidden flex-col p-4 gap-4">
+      <nav className="flex xl:hidden flex-col p-4 gap-4">
         <div className="flex items-center justify-between">
           <div className="flex gap-5 items-center">
             <button

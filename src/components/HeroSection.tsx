@@ -12,7 +12,7 @@ const stats = [
 const HeroSection = () => {
   return (
     <section className="bg-[#F0F0F0] lg:p-12 lg:pb-0 h-auto overflow-x-hidden">
-      <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-8 max-w-[100vw]">
+      <div className="grid grid-cols-1 xl:grid-cols-2 lg:gap-8 max-w-[100vw]">
         <div className="flex flex-col p-4 lg:p-0 lg:pt-10">
           <h2 className="text-5xl lg:text-6xl leading-[4rem] tracking-normal origin-left">
             FIND CLOTHES <br /> THAT MATCHES <br /> YOUR STYLE
@@ -23,7 +23,7 @@ const HeroSection = () => {
             style.
           </p>
 
-          <Button className="w-full lg:w-fit rounded-full px-14 mt-7 mb-12 py-6 lg:py-5">
+          <Button className="w-full lg:w-fit rounded-full px-14 mt-7 mb-12 py-6 xl:py-5">
             Shop Now
           </Button>
 
