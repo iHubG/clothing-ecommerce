@@ -13,3 +13,10 @@ export interface CardProps {
   less?: number | null;
   className?: string;
 }
+
+export interface SimpleCardProps {
+  ratings: number;
+  name: string;
+  testimonial: string;
+  className?: string;
+}
