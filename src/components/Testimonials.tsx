@@ -6,7 +6,7 @@ const Testimonials = () => {
     <>
       <section className="pt-20 p-4 lg:p-0 lg:px-10 lg:pt-25">
         <div className="flex justify-between items-end lg:items-center mb-5 lg:mb-10">
-          <h2 className="text-4xl lg:text-5xl text-start tracking-normal">
+          <h2 className="text-4xl lg:text-5xl text-start tracking-wide">
             OUR HAPPY CUSTOMERS
           </h2>
           <div className="flex gap-5">

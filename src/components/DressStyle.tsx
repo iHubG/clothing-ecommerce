@@ -21,7 +21,7 @@ const DressStyle = () => {
     <>
       <section className="pt-20 p-4 lg:p-0 lg:px-10 lg:pt-25">
         <div className="bg-[#F0F0F0] px-6 pt-15 pb-6 lg:px-10 lg:py-20 rounded-lg">
-          <h2 className="text-5xl lg:text-5xl text-center tracking-normal">
+          <h2 className="text-5xl lg:text-5xl text-center tracking-wide">
             BROWSE BY DRESS STYLE
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-5 mt-10 lg:mt-20">

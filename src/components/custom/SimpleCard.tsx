@@ -25,7 +25,7 @@ const SimpleCard = ({
         {name}
         <RiVerifiedBadgeFill color="#01AB31" />
       </p>
-      <p className="text-base">{testimonial}</p>
+      <p className="text-base text-gray-600">{testimonial}</p>
     </div>
   );
 };

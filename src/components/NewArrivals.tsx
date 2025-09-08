@@ -43,7 +43,7 @@ const NewArrivals = () => {
   return (
     <>
       <section className="pt-20 p-4 lg:p-0 lg:px-10 lg:pt-25">
-        <h2 className="text-4xl lg:text-5xl text-center tracking-normal">NEW ARRIVALS</h2>
+        <h2 className="text-4xl lg:text-5xl text-center tracking-wide">NEW ARRIVALS</h2>
         <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mt-10">
           {newArrivalClothes.map((item, index) => (
             <Card key={index} {...item} className="mb-5 lg:mb-0"/>
