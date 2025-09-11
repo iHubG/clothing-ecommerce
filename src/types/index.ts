@@ -20,3 +20,13 @@ export interface SimpleCardProps {
   testimonial: string;
   className?: string;
 }
+
+export interface DropdownProps {
+  label: string;
+  items: {
+    label: string;
+    path: string;
+    children?: { label: string; path: string }[];
+  }[];
+  isMobile?: boolean;
+}

@@ -2,6 +2,11 @@ import { Input } from "@/components/ui/input";
 import { Mail } from "lucide-react";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaFacebook, FaInstagram, FaGithub } from "react-icons/fa";
+import Visa from "@/assets/images/payments/visa.png";
+import Mastercard from "@/assets/images/payments/mastercard.png";
+import Paypal from "@/assets/images/payments/paypal.png";
+import ApplePay from "@/assets/images/payments/apple-pay.png";
+import GooglePay from "@/assets/images/payments/google-pay.png";
 
 const icons = [FaXTwitter, FaFacebook, FaInstagram, FaGithub];
 
@@ -31,7 +36,7 @@ const Footer = () => {
 
         <div className="grid grid-cols-10 mt-30 lg:mt-20 items-center justify-between gap-6 lg:gap-15">
           <div className="flex flex-col gap-5 col-span-10 lg:col-span-2">
-            <h2 className="font-bold text-4xl tracking-wide">SHOP.CO</h2>
+            <h2 className="text-3xl lg:text-4xl tracking-wide ">SHOP.CO</h2>
             <p className="text-gray-600 text-base">
               We have clothes that suits your style and which you’re proud to
               wear. From women to men.
@@ -80,6 +85,18 @@ const Footer = () => {
               <a href="#">How to - Blog</a>
               <a href="#">Youtube Playlist</a>
             </div>
+          </div>
+        </div>
+
+        <hr className="bg-gray-300 my-10 border-0 h-[2px]"/>
+        <div className="flex flex-col lg:flex-row gap-5 justify-between items-center">
+          <p className="text-gray-600">Shop.co &copy; 2025, All rights reserved</p>
+          <div className="flex">
+              <img src={Visa} alt="visa" />
+              <img src={Mastercard} alt="mastercard" />
+              <img src={Paypal} alt="paypal" />
+              <img src={ApplePay} alt="applepay" />
+              <img src={GooglePay} alt="googlepay" />
           </div>
         </div>
       </div>

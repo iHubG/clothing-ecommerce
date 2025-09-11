@@ -13,7 +13,7 @@ const HeroSection = () => {
   return (
     <section className="bg-[#F0F0F0] lg:p-12 lg:pb-0 h-auto overflow-x-hidden">
       <div className="grid grid-cols-1 xl:grid-cols-2 lg:gap-8 max-w-[100vw]">
-        <div className="flex flex-col p-4 lg:p-0 lg:pt-10">
+        <div className="flex flex-col p-4 pt-10 lg:p-0 lg:pt-10">
           <h2 className="text-5xl lg:text-6xl leading-[4rem] tracking-wide origin-left">
             FIND CLOTHES <br /> THAT MATCHES <br /> YOUR STYLE
           </h2>
